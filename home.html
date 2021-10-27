@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Preview</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="editor-wnd">
+        <div class="header">
+            <p>
+                <i class="far fa-edit"></i>
+                <span class="header-txt">Editor</span>
+            </p>
+
+            <span><i class="fas fa-expand-arrows-alt"></i></span>
+        </div>
+        <textarea name="editor" id="editor" cols="80" rows="10"></textarea>
+    </div>
+
+    <div id="preview-wnd">
+        <div class="header">
+            <p>
+                <i class="fab fa-markdown"></i>
+                <span class="header-txt">Preview</span>
+            </p>
+
+            <span><i class="fas fa-expand-arrows-alt"></i></span>           
+        </div>
+        <div id="preview"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/86ef774720.js" crossorigin="anonymous"></script>
+</body>
+</html>
